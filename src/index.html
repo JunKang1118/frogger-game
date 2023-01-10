@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+    <link rel="stylesheet" href="../src/style.css">
+  </head>
+  <body>
+    <h1>Frogger</h1>
+    <p id = "score"      >Score        : 0</p>
+    <p>Highest Score : </p>
+    <p id = "highestScore" class = "highestScore">0</p>
+    <button type="button" class="button" id="button">Restart Game</button>
+    <script src="main.js"></script>
+    <svg id="svgCanvas" width="650" height="600" style="background-color:black">
+      
+      <rect width="650" height="300" style="fill:rgb(0, 200, 255)" transform = translate(0,50)></rect>
+      <rect class="scorezone" transform = translate(0,0)></rect>
+      <rect class="scorezone" transform = translate(150,0)></rect>
+      <rect class="scorezone" transform = translate(300,0)></rect>
+      <rect class="scorezone" transform = translate(450,0)></rect>
+      <rect class="scorezone" transform = translate(600,0)></rect>
+      <image id = "frog" href="../images/frog.jpg" width = "50" height = "50" transform = translate(300,550)></image>
+    </svg>
+  </body>
+</html>

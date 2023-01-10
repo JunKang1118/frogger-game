@@ -1,0 +1,58 @@
+BODY,
+H2,
+H3,
+H4,
+H5,
+H6,
+TH,
+TD {
+    font-family: arial, helvetica, sans-serif;
+}
+
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+svg {
+    background-color: rgb(41, 41, 36);
+}
+
+
+p.highlight {
+    color: red;
+}
+
+.gameover{
+    font-family:sans-serif;
+    font-size:80px;
+    fill:red;
+}
+
+.scorezone{
+    fill:red;
+    width: 50;
+    height:50;
+}
+
+.button{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color:black;
+    position:absolute; 
+    left:490px; 
+    top:90px;
+    background-color:deepskyblue;
+    outline-width:3px; 
+    outline-style:solid;
+}
+
+.highestScore{
+    position:absolute; 
+    left:122px; 
+    top:97px;
+}
