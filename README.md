@@ -12,6 +12,8 @@ display. The tick observables trigger every time interval and it moves the objec
 wood and car, then also checks for interaction such as collision, score increment or reset.
 
 ## Introduction to the project
+<img src="images/gameImage.png" width="450"/>
+
 The player is the frog which can move in four directions. It can either reach the scorezone
 (red box) or eat the fly to earn scores. To do that, the player has to avoid the cars on the
 ground and avoid falling into the river by standing on the wood. After scoring in all five score
