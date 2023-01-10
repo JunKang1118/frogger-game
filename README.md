@@ -23,7 +23,7 @@ disappear.
 
 ## Built With
 * [Typescript][ts-url]
-
+* HTML & CSS
 [ts-url]: https://www.typescriptlang.org/
 
 ## Getting Started
