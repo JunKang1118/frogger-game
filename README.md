@@ -33,7 +33,6 @@ disappear.
   npm install npm@latest -g
   npm run build
   ```
-* install rxjs dependency
 * open dist/index.html in browser
 
 
